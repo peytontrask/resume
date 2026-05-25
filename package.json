@@ -1,0 +1,15 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A static resume portfolio site.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}
